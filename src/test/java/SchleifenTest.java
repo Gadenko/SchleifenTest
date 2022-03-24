@@ -14,4 +14,9 @@ class SchleifenTest {
         assertEquals(1, Schleifen.testWhile(0));
     }
 
+    @Test
+    void testRekursion() {
+        assertEquals(1, Schleifen.rekursionTest(0));
+    }
+
 }

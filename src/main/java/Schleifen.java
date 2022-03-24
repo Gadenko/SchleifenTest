@@ -33,5 +33,15 @@ public class Schleifen {
 
     }
 
+    public static int rekursionTest(int number){
+
+        if(number == 0){
+            return 1;
+        }
+            return number * rekursionTest(- 1);
+
+
+    }
+
 
 }
